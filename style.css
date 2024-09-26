@@ -1,0 +1,91 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: "Young Serif", serif;
+}
+
+.select-one{
+    padding: 10px;
+    background-color: black;
+    color: white;
+
+}
+.select-one__title{
+    text-align: center;
+    margin-top: 10px;
+}
+.select-one__desc{
+    text-align: center;
+}
+.select-one__desc li{
+    display: inline-block; 
+    padding-bottom: 5px;  
+}
+.select-one__desc li a{
+    text-decoration: none;
+    color: lightgrey;
+    
+}
+li a:hover{
+    color: red;
+}
+.select-two{
+    padding: 10px;
+    margin: 20px;
+    
+}
+.select-two__image{
+    display: inline-block;
+    border: solid black 2px;
+    margin-top: 10px;
+    text-align: center;
+    width: 200px;
+    padding: 5px;
+    vertical-align: top;  
+}
+.select-two{
+    text-align: center;
+}
+.select-two__image img{
+    height: 400px;
+    max-width: 100%;
+    
+}
+.select-two__order{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+.select-three{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;   
+}
+
+.select-three__title {
+    text-align: center; 
+    margin-bottom: 20px;
+}
+
+
+table {
+    margin: 0 auto;
+}
+
+.select-three__desc {
+    margin: 5px 0; 
+    width: 100%; 
+}
+.select{
+    text-align: center;
+   padding-left: 8%;
+   padding-right: 8%;
+}
+.select:hover{
+   background-color: lightgreen;
+}
